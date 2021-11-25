@@ -1,4 +1,4 @@
-const theft = require("../timetheft.js");
+const theft = require("../src/timetheft.js");
 
 theft("60s", ({ years, months, weeks, days, hours, minutes, seconds }) => {
   // do whatever with years, months, weeks, days, hours, minutes, seconds

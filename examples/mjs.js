@@ -1,4 +1,4 @@
-import theft from "../timetheft.mjs";
+import theft from "../src/timetheft.mjs";
 
 theft("60s", ({ years, months, weeks, days, hours, minutes, seconds }) => {
   // do whatever with years, months, weeks, days, hours, minutes, seconds

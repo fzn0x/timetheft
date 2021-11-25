@@ -1,14 +1,14 @@
 {
   "name": "timetheft",
   "version": "0.0.1",
-  "description": "Simple and opinionated library to handle countdown in Javascript",
+  "description": "⏰ Simple and opinionated library to handle countdown in Javascript",
   "type": "commonjs",
-  "main": "./timetheft.js",
-  "module": "./timetheft.mjs",
+  "main": "./src/timetheft.js",
+  "module": "./src/timetheft.mjs",
   "exports": {
     ".": {
-      "require": "./timetheft.js",
-      "default": "./timetheft.mjs"
+      "require": "./src/timetheft.js",
+      "default": "./src/timetheft.mjs"
     }
   },
   "keywords": [
