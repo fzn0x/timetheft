@@ -1,0 +1,29 @@
+{
+  "name": "timetheft",
+  "version": "0.0.1",
+  "description": "Simple and opinionated library to handle countdown in Javascript",
+  "type": "commonjs",
+  "main": "./timetheft.js",
+  "module": "./timetheft.mjs",
+  "exports": {
+    ".": {
+      "require": "./timetheft.js",
+      "default": "./timetheft.mjs"
+    }
+  },
+  "keywords": [
+    "countdown",
+    "nodejs",
+    "javascript"
+  ],
+  "author": "fncolon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fncolon/timetheft/issues"
+  },
+  "homepage": "https://github.com/fncolon/timetheft#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fncolon/timetheft.git"
+  }
+}
