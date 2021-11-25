@@ -39,9 +39,6 @@ function timetheft(timeoutPattern, callback) {
     minutes = Math.floor((timeleft % (1000 * 60 * 60)) / (1000 * 60));
     seconds = Math.floor((timeleft % (1000 * 60)) / 1000);
 
-    // TODO: capture if countdown is finish
-    callback({ years, months, weeks, days, hours, minutes, seconds });
-
     if (
       !years &&
       !months &&
@@ -52,6 +49,27 @@ function timetheft(timeoutPattern, callback) {
       !seconds
     ) {
       clearInterval(x);
+      callback({
+        years,
+        months,
+        weeks,
+        days,
+        hours,
+        minutes,
+        seconds,
+        isFinish: true,
+      });
+    } else {
+      callback({
+        years,
+        months,
+        weeks,
+        days,
+        hours,
+        minutes,
+        seconds,
+        isFinish: false,
+      });
     }
   }, 1000);
 }
