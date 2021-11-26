@@ -27,7 +27,8 @@ Browser: install it using [jsdelivr](https://cdn.jsdelivr.net) or similar platfo
 ```html
 <!-- unminified version -->
 <script src="https://cdn.jsdelivr.net/npm/timetheft/src/timetheft.mjs"></script>
-<!-- TODO: minified version -->
+<!-- minified version -->
+<script src="https://cdn.jsdelivr.net/npm/timetheft/src/timetheft.min.mjs"></script>
 ```
 
 ## Usage
