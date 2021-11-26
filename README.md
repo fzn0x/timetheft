@@ -37,73 +37,122 @@ Browser: install it using [jsdelivr](https://cdn.jsdelivr.net) or similar platfo
 ```js
 // Second :
 // Execute countdown 60 seconds from now
-theft("60s", ({ years, months, weeks, days, hours, minutes, seconds }) => {
-  // do whatever with years, months, weeks, days, hours, minutes, seconds
-  // e.g just console.log it :smile:
-  console.log(
-    `Elapsed years: ${years}, months: ${months}, weeks: ${weeks}, days: ${days}, hours: ${hours}, minutes: ${minutes}, seconds: ${seconds}`
-  );
-});
+theft(
+  "60s",
+  ({ years, months, weeks, days, hours, minutes, seconds, isFinish }) => {
+    // do whatever with years, months, weeks, days, hours, minutes, seconds
+    // e.g just console.log it :smile:
+    console.log(
+      `Elapsed years: ${years}, months: ${months}, weeks: ${weeks}, days: ${days}, hours: ${hours}, minutes: ${minutes}, seconds: ${seconds}`
+    );
+
+    if (isFinish) {
+      console.log("Done!");
+    }
+  }
+);
 
 // Minute :
 // Execute countdown 1 minute from now
-theft("1m", ({ years, months, weeks, days, hours, minutes, seconds }) => {
-  // do whatever with years, months, weeks, days, hours, minutes, seconds
-  // e.g just console.log it :smile:
-  console.log(
-    `Elapsed years: ${years}, months: ${months}, weeks: ${weeks}, days: ${days}, hours: ${hours}, minutes: ${minutes}, seconds: ${seconds}`
-  );
-});
+theft(
+  "1m",
+  ({ years, months, weeks, days, hours, minutes, seconds, isFinish }) => {
+    // do whatever with years, months, weeks, days, hours, minutes, seconds
+    // e.g just console.log it :smile:
+    console.log(
+      `Elapsed years: ${years}, months: ${months}, weeks: ${weeks}, days: ${days}, hours: ${hours}, minutes: ${minutes}, seconds: ${seconds}`
+    );
+
+    if (isFinish) {
+      console.log("Done!");
+    }
+  }
+);
 
 // Hour :
 // Execute countdown 1 hour from now
-theft("1h", ({ years, months, weeks, days, hours, minutes, seconds }) => {
-  // do whatever with years, months, weeks, days, hours, minutes, seconds
-  // e.g just console.log it :smile:
-  console.log(
-    `Elapsed years: ${years}, months: ${months}, weeks: ${weeks}, days: ${days}, hours: ${hours}, minutes: ${minutes}, seconds: ${seconds}`
-  );
-});
+theft(
+  "1h",
+  ({ years, months, weeks, days, hours, minutes, seconds, isFinish }) => {
+    // do whatever with years, months, weeks, days, hours, minutes, seconds
+    // e.g just console.log it :smile:
+    console.log(
+      `Elapsed years: ${years}, months: ${months}, weeks: ${weeks}, days: ${days}, hours: ${hours}, minutes: ${minutes}, seconds: ${seconds}`
+    );
+
+    if (isFinish) {
+      console.log("Done!");
+    }
+  }
+);
 
 // Day :
 // Execute countdown 1 day from now
-theft("1d", ({ years, months, weeks, days, hours, minutes, seconds }) => {
-  // do whatever with years, months, weeks, days, hours, minutes, seconds
-  // e.g just console.log it :smile:
-  console.log(
-    `Elapsed years: ${years}, months: ${months}, weeks: ${weeks}, days: ${days}, hours: ${hours}, minutes: ${minutes}, seconds: ${seconds}`
-  );
-});
+theft(
+  "1d",
+  ({ years, months, weeks, days, hours, minutes, seconds, isFinish }) => {
+    // do whatever with years, months, weeks, days, hours, minutes, seconds
+    // e.g just console.log it :smile:
+    console.log(
+      `Elapsed years: ${years}, months: ${months}, weeks: ${weeks}, days: ${days}, hours: ${hours}, minutes: ${minutes}, seconds: ${seconds}`
+    );
+
+    if (isFinish) {
+      console.log("Done!");
+    }
+  }
+);
 
 // Week :
 // Execute countdown 1 week from now
-theft("1w", ({ years, months, weeks, days, hours, minutes, seconds }) => {
-  // do whatever with years, months, weeks, days, hours, minutes, seconds
-  // e.g just console.log it :smile:
-  console.log(
-    `Elapsed years: ${years}, months: ${months}, weeks: ${weeks}, days: ${days}, hours: ${hours}, minutes: ${minutes}, seconds: ${seconds}`
-  );
-});
+theft(
+  "1w",
+  ({ years, months, weeks, days, hours, minutes, seconds, isFinish }) => {
+    // do whatever with years, months, weeks, days, hours, minutes, seconds
+    // e.g just console.log it :smile:
+    console.log(
+      `Elapsed years: ${years}, months: ${months}, weeks: ${weeks}, days: ${days}, hours: ${hours}, minutes: ${minutes}, seconds: ${seconds}`
+    );
+
+    if (isFinish) {
+      console.log("Done!");
+    }
+  }
+);
 
 // Month :
 // Execute countdown 1 month from now
-theft("1M", ({ years, months, weeks, days, hours, minutes, seconds }) => {
-  // do whatever with years, months, weeks, days, hours, minutes, seconds
-  // e.g just console.log it :smile:
-  console.log(
-    `Elapsed years: ${years}, months: ${months}, weeks: ${weeks}, days: ${days}, hours: ${hours}, minutes: ${minutes}, seconds: ${seconds}`
-  );
-});
+theft(
+  "1M",
+  ({ years, months, weeks, days, hours, minutes, seconds, isFinish }) => {
+    // do whatever with years, months, weeks, days, hours, minutes, seconds
+    // e.g just console.log it :smile:
+    console.log(
+      `Elapsed years: ${years}, months: ${months}, weeks: ${weeks}, days: ${days}, hours: ${hours}, minutes: ${minutes}, seconds: ${seconds}`
+    );
+
+    if (isFinish) {
+      console.log("Done!");
+    }
+  }
+);
 
 // Year :
 // Execute countdown 1 year from now
-theft("1y", ({ years, months, weeks, days, hours, minutes, seconds }) => {
-  // do whatever with years, months, weeks, days, hours, minutes, seconds
-  // e.g just console.log it :smile:
-  console.log(
-    `Elapsed years: ${years}, months: ${months}, weeks: ${weeks}, days: ${days}, hours: ${hours}, minutes: ${minutes}, seconds: ${seconds}`
-  );
-});
+theft(
+  "1y",
+  ({ years, months, weeks, days, hours, minutes, seconds, isFinish }) => {
+    // do whatever with years, months, weeks, days, hours, minutes, seconds
+    // e.g just console.log it :smile:
+    console.log(
+      `Elapsed years: ${years}, months: ${months}, weeks: ${weeks}, days: ${days}, hours: ${hours}, minutes: ${minutes}, seconds: ${seconds}`
+    );
+
+    if (isFinish) {
+      console.log("Done!");
+    }
+  }
+);
 ```
 
 ## License
