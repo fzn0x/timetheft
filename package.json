@@ -14,7 +14,8 @@
   "files": [
     "index.js",
     "lib/*.js",
-    "esm.mjs"
+    "esm.mjs",
+    "package-support.json"
   ],
   "keywords": [
     "countdown",
@@ -30,5 +31,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fncolon/timetheft.git"
-  }
+  },
+  "support": true
 }
