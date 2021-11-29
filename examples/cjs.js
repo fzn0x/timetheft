@@ -1,4 +1,4 @@
-const theft = require("../src/timetheft.js");
+const theft = require("../index.js");
 
 theft(
   "60s",
