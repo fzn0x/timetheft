@@ -11,6 +11,11 @@
       "default": "./src/timetheft.mjs"
     }
   },
+  "files": [
+    "index.js",
+    "lib/*.js",
+    "esm.mjs"
+  ],
   "keywords": [
     "countdown",
     "nodejs",
