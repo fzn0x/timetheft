@@ -1,4 +1,4 @@
-import theft from "../src/timetheft.mjs";
+import theft from "../esm.mjs";
 
 theft(
   "60s",
