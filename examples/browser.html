@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Timetheft</title>
+  </head>
+  <body>
+    <script src="../lib/timetheft.js"></script>
+    <script>
+      timetheft(
+        "60s",
+        ({ years, months, weeks, days, hours, minutes, seconds, isFinish }) => {
+          // do whatever with years, months, weeks, days, hours, minutes, seconds
+          // e.g just console.log it :smile:
+          console.log(
+            `Elapsed years: ${years}, months: ${months}, weeks: ${weeks}, days: ${days}, hours: ${hours}, minutes: ${minutes}, seconds: ${seconds}`
+          );
+
+          if (isFinish) {
+            console.log("Done!");
+          }
+        }
+      );
+    </script>
+  </body>
+</html>
