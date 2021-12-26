@@ -70,18 +70,18 @@ Parameters:
   - d (day)
   - w (week)
   - M (month)
-  - y (year)
+  - y (year)\
     **Examples**: `60s` for 60 seconds.
 - **callback**: function
-  - **data**: {
-    **years**: number,
-    **months**: number,
-    **weeks**: number,
-    **days**: number,
-    **hours**: number,
-    **minutes**: number,
-    **seconds**: number,
-    **isFinish**: boolean
+  - **data**: {\
+    **years**: number,\
+    **months**: number,\
+    **weeks**: number,\
+    **days**: number,\
+    **hours**: number,\
+    **minutes**: number,\
+    **seconds**: number,\
+    **isFinish**: boolean\
     }
 
 ## License
