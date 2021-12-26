@@ -62,7 +62,7 @@ theft(
 Parameters:
 
 - **timeoutPattern**: string
-  Pattern used for timeout.
+  Pattern used for timeout.\
   **Keys**:
   - s (second)
   - m (minute)
